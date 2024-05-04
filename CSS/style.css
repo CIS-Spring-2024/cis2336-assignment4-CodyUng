@@ -1,0 +1,247 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'league gothic';
+  }
+  
+  body{
+     background-color: whitesmoke;
+     
+  }
+  
+  .box{
+    display: flex;
+    position: relative;
+  }
+  
+  .box .vnav{
+    width: 250px;
+    height: 100%;
+    background: rgb(200, 16, 46);
+    padding: 50px 0px;
+    position: fixed;
+  }
+  
+  .box .vnav h2{
+    color: white;
+    text-transform:capitalize;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .box .vnav ul li{
+    padding: 25px;
+    border-bottom: 1px solid rgb(150, 12, 34);
+    border-top: 1px solid rgb(150, 12, 34);
+    text-align: center;
+  }    
+  
+  .box .vnav ul li a{
+    color: whitesmoke;
+    display: block;
+  }
+  
+  .box .vnav ul li:hover{
+    background-color: rgb(150, 12, 34);
+  }
+
+  
+  .box .main_body{
+    width: 100%;
+    margin-left: 250px;
+  }
+  
+  .box .main_body .header{
+    padding: 10px;
+    background: rgb(150, 12, 34);
+    color: white;
+    text-align: center;
+  }
+  
+  .box .main_body .biography{
+    margin: 20px;
+    color: black;
+    line-height: 35px;
+    
+  }
+  
+  .box .main_body .biography div{
+    margin-bottom: 20px;
+  }
+
+  .biopic {
+    display: block;
+    width:400px; 
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .centertext{
+    position:absolute;
+    top: 350px; 
+    left: 1200px; 
+    right: auto;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    padding: 10px 60px; 
+    font-size: 25px; 
+    text-align: center;
+    width: 45%;
+    background-color: rgb(150,12, 34, .5);
+    height: 90vh;
+    line-height: 200%;
+    
+  }
+
+  .caps {
+    font-size: 35px;
+    font-weight: bold;
+    color: black;
+  }
+
+
+
+  .inside {
+    display: block;
+    width: 2000px;
+    height: 800px;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-height:max-content;
+    border-collapse: collapse;
+
+  }
+
+  body.home {
+    background-image: url("../Image/restinterior2.jpg");
+  }
+
+  /* create scrolling images for menu */
+
+  .imgheader{
+    padding: 20px;
+  }
+
+  .imggallery{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .imggallery div{
+    width: 100%;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 0px;
+    
+    flex: none;
+  }
+
+  .imggallery div img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+  }
+
+  .imggallery::-webkit-scrollbar{
+    display: none;
+  }
+
+  .imgwrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% auto;
+  }
+
+  #leftarrw, #rightarrw{
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+  }
+
+  .imggallery div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  /*create menu layout*/
+
+.fullmenu {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  
+  .menuid {
+    font-family: 'league gothic';
+    font-size: 14px;
+  }
+  
+  .menuheader {
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .menu-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 1.5em 0;
+  }
+  
+  .menuitems {
+    display: flex;
+  }
+  
+  .menufoodimage {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+  .menufoodtext {
+    flex-grow: 1;
+  }
+  
+  .menufoodheading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  
+  .menufoodname {
+    margin-right: 1.5em;
+  }
+  
+  .menufooddescrip {
+    line-height: 1.6;
+  }
+  
+    .menu-group {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .menufoodimage {
+      width: 125px;
+      height: 125px;
+    }
+
+

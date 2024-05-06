@@ -1,4 +1,6 @@
-1.This assignment is graded.
-2.please follow the instructions file posted on canvas
-3.Upload your work to canvas and push all your files to your repository.
-4.clone this repository and start working on the Assignmnet-4&5
+How to run:
+1. Clone the repository
+2. Have Node.js and express installed
+3. Enter the OrderForm folder and run the terminal in that path
+4. Enter into the terminal node server1.js, to host the file locally
+5. Enter into any browser this URL : http://localhost:3000, to access the website
